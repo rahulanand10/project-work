@@ -1,0 +1,17 @@
+.card{
+    display:flex;
+    background-color: #7CEC9F;
+    width: 50%;
+    height: 500px;
+    justify-content: center;
+    margin:auto;
+}
+.malpic{
+    height: 20px;
+}
+.card-body{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}

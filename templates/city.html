@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+{% block body %}
+<div class="container">
+    <div class="col">
+        <h1>CITY PAGE</h1>
+        <hr>
+    </div>
+    <div class="card" id="card1">
+        <div class="card-body">
+            <form method="POST" enctype=multipart/form-data style="color: black" action="/cd">
+                <select name = "dropdown">
+                    <option value = "DELHI" selected>Delhi</option>
+                    <option value = "MUMBAI">Mumbai</option>
+                    <option value = "BANGLORE">Banglore</option>
+                 </select>
+                <input type="submit" class="btn btn-primary" name="Select">
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %}
